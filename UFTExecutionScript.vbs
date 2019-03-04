@@ -51,7 +51,7 @@ For  i = 2 to iRowCount
 		UftApplication.Test.Run	
 	End If
 Next
-UftApplication.Open CurrentDirectory&"\TestCases\ResultsSummary"
+'UftApplication.Open CurrentDirectory&"\TestCases\ResultsSummary"
 UftApplication.Test.Environment.Value("FolderName")=strFoldername
 UftApplication.Test.Environment.Value("ExecutionType")="Batch"
 UftApplication.Test.Save
